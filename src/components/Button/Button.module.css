@@ -1,0 +1,15 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    background-color: inherit;
+    max-width: 153px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 20px;
+    border: 1px solid #1A1718;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 8px 29px;
+}

@@ -1,0 +1,21 @@
+.pageTitle_wrapper {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #DEDBDC; 
+  align-items: baseline;
+  padding-bottom: 7px;
+  gap: 11px;
+}
+
+.page_title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pageTitle_breadcrumbs {
+  font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.02em;
+}

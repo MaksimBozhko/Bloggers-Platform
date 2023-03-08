@@ -1,0 +1,30 @@
+.blogPage_background {
+    max-width: 1028px;
+    height: 312px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  12px -24px 24px;
+}
+
+.blogPage_background__image {
+    width:77px;
+    height:63px;
+}
+
+.blogPage_container {
+    padding-right: 64px;
+}
+
+.blogPage_posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 48px 0;
+}
+
+.blogPage_button {
+    display: flex;
+    justify-content: center;
+}

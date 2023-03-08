@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 252px;
+    width: 100%;
+    background: #FCFBFB;
+    padding: 37px 0 0 64px;
+    
+}
+
+.nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+    max-width: 252px;
+    width: 100%;
+    height: 36px;
+}
+
+.nav a .nav_itemBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav a.activeLink {
+    color: #F8346B; 
+}
+
+.nav a.activeLink .nav_img path {
+    fill: #F8346B;
+}
+
+.nav a.activeLink span {
+    width: 2px;
+    height: 36px;
+    background: #F8346B;
+    border-radius: 2px 0px 0px 2px;
+}
+
+
+
